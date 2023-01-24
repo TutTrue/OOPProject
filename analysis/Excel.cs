@@ -198,32 +198,7 @@ namespace Final
                 r++;
             }
             return strings;
-        }
-        //public string[] getMySeats(string user)
-        //{
-        //    int counter = 0, r = 0, c = 1, r1 = 0;
-
-        //    while (ws.Cell(r, c).Value != null)
-        //    {
-        //        if (ws.Cell(r, c).Value.ToString() == user)
-        //        {
-        //            counter++;
-        //        }
-        //        r++;
-        //    }
-        //    string[] strings = new string[counter];
-        //    int i = 0;
-        //    while (ws.Cell(r1, c).Value != null)
-        //    {
-        //        if (ws.Cell(r1, c).Value.ToString() == user)
-        //        {
-        //            strings[i] = ws.Cell(r1, c - 1).Value.ToString();
-        //            i++;
-        //        }
-        //        r1++;
-        //    }
-        //    return strings;
-        //} //return array of string of current user seats
+        } //return array of string of current user seats
 
         public void storeTripSetting(string[] arr)
         {
@@ -317,7 +292,7 @@ namespace Final
             return ws.Cell(0, 0).Value.ToString();
             
         }
-        public string[] gettripNames()
+        public List<string> gettripNames()
         {
             int row = 0;
 
@@ -326,11 +301,11 @@ namespace Final
 
                 row++;
             }
-            string[] s = new string[row];
+            List<string> s = new List<string>();
             row = 0;
             while ((ws.Cell(row, 0).Value != null))
             {
-                s[row] = ws.Cell(row, 0).Value.ToString();
+                s.Add(ws.Cell(row, 0).Value.ToString());
                 row++;
             }
             return s;

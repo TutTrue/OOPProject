@@ -125,7 +125,7 @@
 
         private void TripSettings_Load(object sender, EventArgs e)
         {
-            string[] tripSetting=tripWorkbook.gettripNames();
+            List<string> tripSetting=tripWorkbook.gettripNames();
             foreach(string tripName in tripSetting)
             {
                 this.ChangeTrip.Items.AddRange(new object[] {
