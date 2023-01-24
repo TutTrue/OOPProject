@@ -46,8 +46,8 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("MS UI Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(103)))), ((int)(((byte)(242)))));
+            this.label1.Font = new System.Drawing.Font("Segoe UI Emoji", 24.21818F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(182)))), ((int)(((byte)(183)))));
             this.label1.Location = new System.Drawing.Point(38, 63);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -55,81 +55,82 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Get Started";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.DimGray;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(154)))), ((int)(((byte)(151)))));
             this.label2.Location = new System.Drawing.Point(41, 181);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(118, 28);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Username";
+            this.label2.Text = "Username :";
             // 
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.DimGray;
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(154)))), ((int)(((byte)(151)))));
             this.label3.Location = new System.Drawing.Point(38, 276);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(116, 28);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Password";
+            this.label3.Text = "Password :";
             // 
             // UsernameLog
             // 
             this.UsernameLog.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.UsernameLog.BackColor = System.Drawing.SystemColors.Control;
+            this.UsernameLog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(253)))), ((int)(((byte)(240)))));
             this.UsernameLog.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UsernameLog.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.UsernameLog.Font = new System.Drawing.Font("Nirmala UI", 13.74545F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.UsernameLog.ForeColor = System.Drawing.Color.Navy;
+            this.UsernameLog.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(154)))), ((int)(((byte)(151)))));
             this.UsernameLog.Location = new System.Drawing.Point(41, 211);
             this.UsernameLog.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.UsernameLog.Multiline = true;
             this.UsernameLog.Name = "UsernameLog";
             this.UsernameLog.Size = new System.Drawing.Size(318, 32);
-            this.UsernameLog.TabIndex = 3;
+            this.UsernameLog.TabIndex = 0;
             this.UsernameLog.WordWrap = false;
             // 
             // PasswordLog
             // 
             this.PasswordLog.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.PasswordLog.BackColor = System.Drawing.SystemColors.Control;
+            this.PasswordLog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(253)))), ((int)(((byte)(240)))));
             this.PasswordLog.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.PasswordLog.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.PasswordLog.Font = new System.Drawing.Font("Nirmala UI", 13.74545F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.PasswordLog.ForeColor = System.Drawing.Color.Navy;
+            this.PasswordLog.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(154)))), ((int)(((byte)(151)))));
             this.PasswordLog.Location = new System.Drawing.Point(41, 307);
             this.PasswordLog.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.PasswordLog.Multiline = true;
             this.PasswordLog.Name = "PasswordLog";
             this.PasswordLog.PasswordChar = '*';
             this.PasswordLog.Size = new System.Drawing.Size(318, 32);
-            this.PasswordLog.TabIndex = 8;
+            this.PasswordLog.TabIndex = 1;
             this.PasswordLog.WordWrap = false;
             // 
             // checkBox_showpass
             // 
             this.checkBox_showpass.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox_showpass.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.checkBox_showpass.ForeColor = System.Drawing.Color.DarkGray;
-            this.checkBox_showpass.Location = new System.Drawing.Point(41, 361);
-            this.checkBox_showpass.Margin = new System.Windows.Forms.Padding(0);
+            this.checkBox_showpass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(182)))), ((int)(((byte)(183)))));
+            this.checkBox_showpass.Location = new System.Drawing.Point(41, 362);
+            this.checkBox_showpass.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.checkBox_showpass.Name = "checkBox_showpass";
-            this.checkBox_showpass.Size = new System.Drawing.Size(182, 28);
-            this.checkBox_showpass.TabIndex = 5;
+            this.checkBox_showpass.Size = new System.Drawing.Size(157, 27);
+            this.checkBox_showpass.TabIndex = 2;
             this.checkBox_showpass.Text = "Show Password";
-            this.checkBox_showpass.UseCompatibleTextRendering = true;
             this.checkBox_showpass.UseVisualStyleBackColor = true;
             this.checkBox_showpass.CheckedChanged += new System.EventHandler(this.checkBox_showpass_CheckedChanged);
             // 
             // Login
             // 
-            this.Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(103)))), ((int)(((byte)(242)))));
+            this.Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(182)))), ((int)(((byte)(183)))));
             this.Login.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Login.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(128)))), ((int)(((byte)(125)))));
             this.Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Login.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Login.ForeColor = System.Drawing.Color.White;
@@ -137,7 +138,7 @@
             this.Login.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Login.Name = "Login";
             this.Login.Size = new System.Drawing.Size(318, 47);
-            this.Login.TabIndex = 6;
+            this.Login.TabIndex = 3;
             this.Login.Text = "LOGIN";
             this.Login.UseVisualStyleBackColor = false;
             this.Login.Click += new System.EventHandler(this.Login_Click);
@@ -146,15 +147,15 @@
             // 
             this.Clear.BackColor = System.Drawing.Color.White;
             this.Clear.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Clear.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(103)))), ((int)(((byte)(242)))));
+            this.Clear.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(182)))), ((int)(((byte)(183)))));
             this.Clear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Clear.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Clear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(103)))), ((int)(((byte)(242)))));
+            this.Clear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(182)))), ((int)(((byte)(183)))));
             this.Clear.Location = new System.Drawing.Point(41, 483);
             this.Clear.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Clear.Name = "Clear";
             this.Clear.Size = new System.Drawing.Size(318, 47);
-            this.Clear.TabIndex = 7;
+            this.Clear.TabIndex = 4;
             this.Clear.Text = "CLEAR";
             this.Clear.UseVisualStyleBackColor = false;
             this.Clear.Click += new System.EventHandler(this.Clear_Click);
@@ -162,7 +163,7 @@
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.DimGray;
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(154)))), ((int)(((byte)(151)))));
             this.label4.Location = new System.Drawing.Point(41, 557);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
@@ -177,19 +178,19 @@
             this.CreateAc.FlatAppearance.BorderSize = 0;
             this.CreateAc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CreateAc.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.CreateAc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(103)))), ((int)(((byte)(242)))));
+            this.CreateAc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(182)))), ((int)(((byte)(183)))));
             this.CreateAc.Location = new System.Drawing.Point(108, 597);
             this.CreateAc.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.CreateAc.Name = "CreateAc";
             this.CreateAc.Size = new System.Drawing.Size(169, 37);
-            this.CreateAc.TabIndex = 9;
+            this.CreateAc.TabIndex = 5;
             this.CreateAc.Text = "Create Account";
             this.CreateAc.UseVisualStyleBackColor = true;
             this.CreateAc.Click += new System.EventHandler(this.CreateAc_Click);
             // 
             // MinimizeBtn
             // 
-            this.MinimizeBtn.BackColor = System.Drawing.SystemColors.Control;
+            this.MinimizeBtn.BackColor = System.Drawing.Color.Transparent;
             this.MinimizeBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MinimizeBtn.FlatAppearance.BorderSize = 0;
             this.MinimizeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -205,7 +206,7 @@
             // 
             // CloseBtn
             // 
-            this.CloseBtn.BackColor = System.Drawing.SystemColors.Control;
+            this.CloseBtn.BackColor = System.Drawing.Color.Transparent;
             this.CloseBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CloseBtn.FlatAppearance.BorderSize = 0;
             this.CloseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -221,7 +222,7 @@
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(391, 704);
@@ -238,6 +239,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Segoe UI", 7.854546F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(154)))), ((int)(((byte)(151)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "LoginForm";

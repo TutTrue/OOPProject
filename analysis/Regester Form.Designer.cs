@@ -47,8 +47,8 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("MS UI Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(103)))), ((int)(((byte)(242)))));
+            this.label1.Font = new System.Drawing.Font("Segoe UI Emoji", 24.21818F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(182)))), ((int)(((byte)(183)))));
             this.label1.Location = new System.Drawing.Point(38, 63);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -60,7 +60,7 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.DimGray;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(154)))), ((int)(((byte)(151)))));
             this.label2.Location = new System.Drawing.Point(32, 148);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
@@ -71,7 +71,7 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.DimGray;
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(154)))), ((int)(((byte)(151)))));
             this.label3.Location = new System.Drawing.Point(32, 232);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
@@ -81,50 +81,50 @@
             // 
             // UsernameRig
             // 
-            this.UsernameRig.BackColor = System.Drawing.SystemColors.Control;
+            this.UsernameRig.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(253)))), ((int)(((byte)(240)))));
             this.UsernameRig.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UsernameRig.Font = new System.Drawing.Font("Nirmala UI", 13.74545F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.UsernameRig.ForeColor = System.Drawing.Color.Navy;
+            this.UsernameRig.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(154)))), ((int)(((byte)(151)))));
             this.UsernameRig.Location = new System.Drawing.Point(38, 189);
             this.UsernameRig.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.UsernameRig.Multiline = true;
             this.UsernameRig.Name = "UsernameRig";
             this.UsernameRig.Size = new System.Drawing.Size(318, 32);
-            this.UsernameRig.TabIndex = 13;
+            this.UsernameRig.TabIndex = 0;
             // 
             // PasswordRig
             // 
-            this.PasswordRig.BackColor = System.Drawing.SystemColors.Control;
+            this.PasswordRig.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(253)))), ((int)(((byte)(240)))));
             this.PasswordRig.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.PasswordRig.Font = new System.Drawing.Font("Nirmala UI", 13.74545F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.PasswordRig.ForeColor = System.Drawing.Color.Navy;
+            this.PasswordRig.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(154)))), ((int)(((byte)(151)))));
             this.PasswordRig.Location = new System.Drawing.Point(38, 273);
             this.PasswordRig.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.PasswordRig.Multiline = true;
             this.PasswordRig.Name = "PasswordRig";
             this.PasswordRig.PasswordChar = '*';
             this.PasswordRig.Size = new System.Drawing.Size(318, 32);
-            this.PasswordRig.TabIndex = 14;
-            this.PasswordRig.TextChanged += new System.EventHandler(this.textBox_rpass_TextChanged);
+            this.PasswordRig.TabIndex = 1;
             // 
             // checkBox_rshowpass
             // 
             this.checkBox_rshowpass.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox_rshowpass.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.checkBox_rshowpass.ForeColor = System.Drawing.Color.DarkGray;
+            this.checkBox_rshowpass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(182)))), ((int)(((byte)(183)))));
             this.checkBox_rshowpass.Location = new System.Drawing.Point(38, 411);
             this.checkBox_rshowpass.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.checkBox_rshowpass.Name = "checkBox_rshowpass";
             this.checkBox_rshowpass.Size = new System.Drawing.Size(182, 29);
-            this.checkBox_rshowpass.TabIndex = 15;
+            this.checkBox_rshowpass.TabIndex = 3;
             this.checkBox_rshowpass.Text = "Show Password";
             this.checkBox_rshowpass.UseVisualStyleBackColor = true;
             this.checkBox_rshowpass.CheckedChanged += new System.EventHandler(this.checkBox_rshowpass_CheckedChanged);
             // 
             // Rigester
             // 
-            this.Rigester.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(103)))), ((int)(((byte)(242)))));
+            this.Rigester.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(182)))), ((int)(((byte)(183)))));
             this.Rigester.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Rigester.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(128)))), ((int)(((byte)(125)))));
             this.Rigester.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Rigester.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Rigester.ForeColor = System.Drawing.Color.White;
@@ -132,7 +132,7 @@
             this.Rigester.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Rigester.Name = "Rigester";
             this.Rigester.Size = new System.Drawing.Size(318, 47);
-            this.Rigester.TabIndex = 16;
+            this.Rigester.TabIndex = 4;
             this.Rigester.Text = "RIGESTER";
             this.Rigester.UseVisualStyleBackColor = false;
             this.Rigester.Click += new System.EventHandler(this.Rigester_Click);
@@ -141,15 +141,15 @@
             // 
             this.Clear.BackColor = System.Drawing.Color.White;
             this.Clear.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Clear.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(103)))), ((int)(((byte)(242)))));
+            this.Clear.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(182)))), ((int)(((byte)(183)))));
             this.Clear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Clear.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Clear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(103)))), ((int)(((byte)(242)))));
+            this.Clear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(182)))), ((int)(((byte)(183)))));
             this.Clear.Location = new System.Drawing.Point(35, 544);
             this.Clear.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Clear.Name = "Clear";
             this.Clear.Size = new System.Drawing.Size(318, 47);
-            this.Clear.TabIndex = 17;
+            this.Clear.TabIndex = 5;
             this.Clear.Text = "CLEAR";
             this.Clear.UseVisualStyleBackColor = false;
             this.Clear.Click += new System.EventHandler(this.Clear_Click);
@@ -160,12 +160,12 @@
             this.BackTologin.FlatAppearance.BorderSize = 0;
             this.BackTologin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BackTologin.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.BackTologin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(103)))), ((int)(((byte)(242)))));
+            this.BackTologin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(182)))), ((int)(((byte)(183)))));
             this.BackTologin.Location = new System.Drawing.Point(112, 612);
             this.BackTologin.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.BackTologin.Name = "BackTologin";
             this.BackTologin.Size = new System.Drawing.Size(169, 37);
-            this.BackTologin.TabIndex = 19;
+            this.BackTologin.TabIndex = 6;
             this.BackTologin.Text = "Back to LOGIN";
             this.BackTologin.UseVisualStyleBackColor = true;
             this.BackTologin.Click += new System.EventHandler(this.BackTologin_Click);
@@ -173,7 +173,7 @@
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.DimGray;
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(154)))), ((int)(((byte)(151)))));
             this.label5.Location = new System.Drawing.Point(35, 316);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
@@ -183,20 +183,21 @@
             // 
             // ConfirmRig
             // 
-            this.ConfirmRig.BackColor = System.Drawing.SystemColors.Control;
+            this.ConfirmRig.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(253)))), ((int)(((byte)(240)))));
             this.ConfirmRig.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ConfirmRig.Font = new System.Drawing.Font("Nirmala UI", 13.74545F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ConfirmRig.ForeColor = System.Drawing.Color.Navy;
+            this.ConfirmRig.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(154)))), ((int)(((byte)(151)))));
             this.ConfirmRig.Location = new System.Drawing.Point(36, 357);
             this.ConfirmRig.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.ConfirmRig.Multiline = true;
             this.ConfirmRig.Name = "ConfirmRig";
             this.ConfirmRig.PasswordChar = '*';
             this.ConfirmRig.Size = new System.Drawing.Size(318, 32);
-            this.ConfirmRig.TabIndex = 21;
+            this.ConfirmRig.TabIndex = 2;
             // 
             // MinimizeBtn
             // 
+            this.MinimizeBtn.BackColor = System.Drawing.Color.Transparent;
             this.MinimizeBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MinimizeBtn.FlatAppearance.BorderSize = 0;
             this.MinimizeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -212,6 +213,7 @@
             // 
             // CloseBtn
             // 
+            this.CloseBtn.BackColor = System.Drawing.Color.Transparent;
             this.CloseBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CloseBtn.FlatAppearance.BorderSize = 0;
             this.CloseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

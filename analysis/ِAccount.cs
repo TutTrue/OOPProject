@@ -1,18 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace Final
+﻿namespace Final
 {
     public partial class _ِAccount : UserControl
     {
-        Excel sh = new Excel(@"Book2.xlsx", "Users");
+        Excel sh = new Excel(@"../../../Database/Book2.xlsx", "Users");
         public string? userName;
 
         public _ِAccount()
@@ -25,15 +15,19 @@ namespace Final
             userName = username;
             InitializeComponent();
             UserTextBox.Text = userName;
-            
+
 
         }
 
 
         private void _ِAccount_Load(object sender, EventArgs e)
         {
-           
+            
+
             CurrentPasswordTextBox.UseSystemPasswordChar = true;
+            if (userName == "admin")
+                RuleTextBox.Text = "admin";
+
         }
 
         private void checkBox_showpass_CheckedChanged(object sender, EventArgs e)
@@ -52,7 +46,7 @@ namespace Final
 
         private void SaveChagesBtn_Click(object sender, EventArgs e)
         {
-            if (CurrentPasswordTextBox.Text == sh.getPass(userName))
+            if (sh.getPass(userName, CurrentPasswordTextBox.Text))
             {
                 if (newPasstxb.Text == ConfirmTextBox.Text)
                 {
@@ -68,15 +62,21 @@ namespace Final
             {
                 MessageBox.Show("Wrong password");
             }
-            
-            
+
+
         }
 
-        private void LogOut_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            LoginForm frm= new LoginForm();
-            frm.Show();
-
+            label4.Visible = true;
+            label5.Visible = true;
+            label3.Visible = true;
+            newPasstxb.Visible = true;
+            ConfirmTextBox.Visible = true;
+            CurrentPasswordTextBox.Visible = true;
+            checkBox_showpass.Visible = true;
+            SaveChagesBtn.Visible = true;
+            ChangeButton.Visible = false;
         }
     }
 }
