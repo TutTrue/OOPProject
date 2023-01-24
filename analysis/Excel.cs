@@ -173,7 +173,6 @@ namespace Final
         {
             int  r = 0;
 
-            
             List<string> strings = new List<string>();
             while (ws.Cell(r, 0).Value != null)
             {
@@ -181,48 +180,50 @@ namespace Final
                 r++;
             }
             return strings;
-        }
-        //public string[] getAllSeats1()
-        //{
-        //    int counter = 0, r = 0, c = 0;
-
-        //    while (ws.Cell(r, c).Value != null)
-        //    {
-        //        counter++;
-        //        r++;
-        //    }
-        //    string[] strings = new string[counter];
-        //    for (int i = 0; i < counter; i++)
-        //    {
-        //        strings[i] = ws.Cell(i, 0).Value.ToString();
-        //    }
-        //    return strings;
-        //} //return array of strings of seats taken
-        public string[] getMySeats(string user)
+        } //return array of strings of seats taken
+        public List<string> getMySeats(string user)
         {
-            int counter = 0, r = 0, c = 1, r1 = 0;
+            int  r = 0;
 
-            while (ws.Cell(r, c).Value != null)
+            
+            List<string> strings = new List<string>();
+            
+            while (ws.Cell(r, 1).Value != null)
             {
-                if (ws.Cell(r, c).Value.ToString() == user)
+                if (ws.Cell(r, 1).Value.ToString() == user)
                 {
-                    counter++;
+                    strings.Add(ws.Cell(r, 0).Value.ToString());
+                    
                 }
                 r++;
             }
-            string[] strings = new string[counter];
-            int i = 0;
-            while (ws.Cell(r1, c).Value != null)
-            {
-                if (ws.Cell(r1, c).Value.ToString() == user)
-                {
-                    strings[i] = ws.Cell(r1, c - 1).Value.ToString();
-                    i++;
-                }
-                r1++;
-            }
             return strings;
-        } //return array of string of current user seats
+        }
+        //public string[] getMySeats(string user)
+        //{
+        //    int counter = 0, r = 0, c = 1, r1 = 0;
+
+        //    while (ws.Cell(r, c).Value != null)
+        //    {
+        //        if (ws.Cell(r, c).Value.ToString() == user)
+        //        {
+        //            counter++;
+        //        }
+        //        r++;
+        //    }
+        //    string[] strings = new string[counter];
+        //    int i = 0;
+        //    while (ws.Cell(r1, c).Value != null)
+        //    {
+        //        if (ws.Cell(r1, c).Value.ToString() == user)
+        //        {
+        //            strings[i] = ws.Cell(r1, c - 1).Value.ToString();
+        //            i++;
+        //        }
+        //        r1++;
+        //    }
+        //    return strings;
+        //} //return array of string of current user seats
 
         public void storeTripSetting(string[] arr)
         {
