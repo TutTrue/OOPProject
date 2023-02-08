@@ -4,8 +4,8 @@
     {
         public string? userName;
         public string tripName;
-        Excel sh = new Excel(@"../../../Database/Book2.xlsx", "seats");
-        Excel tripWorkbook = new Excel(@"../../../Database/Book2.xlsx", "tripSetting");
+        Excel sh = new Excel("seats");
+        Excel tripWorkbook = new Excel("tripSetting");
 
         public Main()
         {

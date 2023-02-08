@@ -5,14 +5,13 @@ namespace Final
 {
     internal class Excel
     {
-        public string path { get; }
+        string path = "../../../Database/Book2.xlsx";
         int row;
         Spreadsheet sh = new Spreadsheet();
         Worksheet ws;
-        public Excel(string path, string sheetName)
+        public Excel( string sheetName)
         {
-            this.path = path;
-            sh.LoadFromFile(path);
+            sh.LoadFromFile(@path);
             ws = sh.Workbook.Worksheets.ByName(sheetName);
             row = -1;
         }

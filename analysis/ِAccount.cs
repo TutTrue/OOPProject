@@ -2,7 +2,7 @@
 {
     public partial class _ِAccount : UserControl
     {
-        Excel sh = new Excel(@"../../../Database/Book2.xlsx", "Users");
+        Excel sh = new Excel("Users");
         public string? userName;
 
         public _ِAccount()

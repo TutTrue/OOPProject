@@ -3,9 +3,9 @@
     public partial class TripSettings : Form
     {
         public string userName;
-        Excel sh = new Excel(@"../../../Database/Book2.xlsx", "seats");
-        Excel tripWorkbook = new Excel(@"../../../Database/Book2.xlsx", "tripSetting");
-        Excel currentTrip = new Excel(@"../../../Database/Book2.xlsx", "CurrentTrip");
+        Excel sh = new Excel("seats");
+        Excel tripWorkbook = new Excel("tripSetting");
+        Excel currentTrip = new Excel("CurrentTrip");
 
 
         public TripSettings(string userName)

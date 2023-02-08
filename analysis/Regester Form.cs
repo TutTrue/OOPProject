@@ -3,7 +3,7 @@
     public partial class Regester_Form : Form
     {
 
-        Excel sh = new Excel(@"../../../Database/Book2.xlsx", "Users");
+        Excel sh = new Excel("Users");
 
         public Regester_Form()
         {

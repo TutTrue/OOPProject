@@ -2,7 +2,7 @@ namespace Final
 {
     public partial class Dashboard : Form
     {
-        Excel sh = new Excel(@"../../../Database/Book2.xlsx", "seats");
+        Excel sh = new Excel("seats");
         Button[] buttons;
         string userName;
         public Dashboard(string userName)

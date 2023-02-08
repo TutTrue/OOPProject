@@ -4,7 +4,7 @@
     {
 
 
-        Excel sh = new Excel(@"../../../Database/Book2.xlsx", "Users");
+        Excel sh = new Excel("Users");
         public LoginForm()
         {
             InitializeComponent();

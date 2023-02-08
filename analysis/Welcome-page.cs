@@ -2,9 +2,9 @@
 {
     public partial class Welcome_page : UserControl
     {
-        Excel sh = new Excel(@"../../../Database/Book2.xlsx", "seats");
-        Excel tripWorkbook = new Excel(@"../../../Database/Book2.xlsx", "tripSetting");
-        Excel currentTrip = new Excel(@"../../../Database/Book2.xlsx", "CurrentTrip");
+        Excel sh = new Excel( "seats");
+        Excel tripWorkbook = new Excel("tripSetting");
+        Excel currentTrip = new Excel("CurrentTrip");
 
         public string tripName;
 
